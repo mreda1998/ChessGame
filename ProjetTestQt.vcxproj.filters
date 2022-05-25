@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Sources Bibliotheques">
+      <UniqueIdentifier>{68ace6f3-7624-4063-b7e8-0b2c755fbfc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pieces">
+      <UniqueIdentifier>{6c6a9bbb-128e-4748-b9ab-7749286b9357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vue">
+      <UniqueIdentifier>{17e46bb0-2d29-4add-b0fa-bd5cc4d00386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pieces">
+      <UniqueIdentifier>{41c56f4e-3a17-4579-a3ca-61a355c5ecc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vue">
+      <UniqueIdentifier>{10968e2c-6b22-4990-9021-4e58bb04db97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StrategiesPlacementPieces">
+      <UniqueIdentifier>{5e16fb73-4307-4d3e-a970-8f07a9cddc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StrategiesPlacementPieces">
+      <UniqueIdentifier>{4eeddb9a-a9f4-4630-a17e-58bfc3fe3570}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bibliotheque_cours\bibliotheque_cours.cpp">
+      <Filter>Sources Bibliotheques</Filter>
+    </ClCompile>
+    <ClCompile Include="bibliotheque_cours\verification_allocation.cpp">
+      <Filter>Sources Bibliotheques</Filter>
+    </ClCompile>
+    <ClCompile Include="googletest\src\gtest-all.cc">
+      <Filter>Sources Bibliotheques</Filter>
+    </ClCompile>
+    <ClCompile Include="echiquier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roi.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="reine.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="tour.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="fou.cpp">
+      <Filter>Source Files\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="interfacePiece.cpp">
+      <Filter>Source Files\Vue</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaceEchiquier.cpp">
+      <Filter>Source Files\Vue</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaceGraphique.cpp">
+      <Filter>Source Files\Vue</Filter>
+    </ClCompile>
+    <ClCompile Include="finDePartieAlexandreJean-Macon.cpp">
+      <Filter>Source Files\StrategiesPlacementPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="finDePartieCarlosChukBondAliola.cpp">
+      <Filter>Source Files\StrategiesPlacementPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="finDePartieRhanmouniNguyen.cpp">
+      <Filter>Source Files\StrategiesPlacementPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="grandeMurailleDesTours.cpp">
+      <Filter>Source Files\StrategiesPlacementPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="folieDeMasse.cpp">
+      <Filter>Source Files\StrategiesPlacementPieces</Filter>
+    </ClCompile>
+    <ClCompile Include="strategiePlacementPieces.cpp">
+      <Filter>Source Files\StrategiesPlacementPieces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="echiquier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="piece.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="roi.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="fou.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="reine.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="tour.h">
+      <Filter>Header Files\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="strategiePlacementPieces.h">
+      <Filter>Header Files\StrategiesPlacementPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="folieDeMasse.h">
+      <Filter>Header Files\StrategiesPlacementPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="grandeMurailleDesTours.h">
+      <Filter>Header Files\StrategiesPlacementPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="finDePartieRhanmouniNguyen.h">
+      <Filter>Header Files\StrategiesPlacementPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="finDePartieAlexandreJean-Macon.h">
+      <Filter>Header Files\StrategiesPlacementPieces</Filter>
+    </ClInclude>
+    <ClInclude Include="finDePartieCarlosChukBondAliola.h">
+      <Filter>Header Files\StrategiesPlacementPieces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="interfaceGraphique.h">
+      <Filter>Header Files\Vue</Filter>
+    </QtMoc>
+    <QtMoc Include="interfacePiece.h">
+      <Filter>Header Files\Vue</Filter>
+    </QtMoc>
+    <QtMoc Include="interfaceEchiquier.h">
+      <Filter>Header Files\Vue</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
